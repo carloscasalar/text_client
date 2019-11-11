@@ -1,0 +1,4 @@
+%{
+  "dictionary": {:git, "https://github.com/carloscasalar/dictionary.git", "ca15c432004883392751fe4661f1b209c74e4f24", [tag: "1.0.0"]},
+  "hangman": {:git, "https://github.com/carloscasalar/hangman.git", "129eb33e91589d07cf2be093b4535c2a8a0529cf", [tag: "1.0.0"]},
+}
