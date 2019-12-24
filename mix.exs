@@ -22,7 +22,7 @@ defmodule TextClient.MixProject do
   defp deps do
     [
       # {:dep_from_hexpm, "~> 0.3.0"},
-      {:hangman, git: "https://github.com/carloscasalar/hangman.git", tag: "1.0.0"},
+      {:hangman, git: "https://github.com/carloscasalar/hangman.git", tag: "1.1.0"}
     ]
   end
 end
