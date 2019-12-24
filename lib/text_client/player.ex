@@ -2,24 +2,20 @@ defmodule TextClient.Player do
   alias TextClient.State
 
   # won, lost, good guess, bad guess, already used, initializing
-  def play(
-        %State{
-          tally: %{
-            game_state: :won
-          }
+  def play(%State{
+        tally: %{
+          game_state: :won
         }
-      ) do
-    exit_with_message "You WON!"
+      }) do
+    exit_with_message("You WON!")
   end
 
-  def play(
-        %State{
-          tally: %{
-            game_state: :lost
-          }
+  def play(%State{
+        tally: %{
+          game_state: :lost
         }
-      ) do
-    exit_with_message "Sorry, you lost!"
+      }) do
+    exit_with_message("Sorry, you lost!")
   end
 
   def play(
